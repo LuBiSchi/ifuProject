@@ -13,8 +13,9 @@
         </activity>
         <activity android:label="@string/app_name" android:name="com.ifu.MainActivity">
         </activity>
-        <activity android:label="Register New Account" android:name="com.ifu.RegisterActivity"/>
-        <activity android:label="Register New Account" android:name="com.ifu.LoginActivity"/>
+        <activity android:label="Criar nova conta" android:name="com.ifu.RegisterActivity"/>
+        <activity android:label="Login" android:name="com.ifu.LoginActivity"/>
+
     </application>
 
 </manifest>

@@ -3,17 +3,18 @@ package com.ifu;
 /**
  * Created by Adribiolchi on 12/08/13.
  */
-    import android.app.Activity;
-    import android.content.Intent;
-    import android.os.Bundle;
-    import android.os.Handler;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
 
 public class SplashScreen extends Activity {
     //Timer para o SplashScren//
     private static int SPLASH_TIME_OUT = 3000;
 
     @Override
-    protected void  onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
@@ -35,8 +36,6 @@ public class SplashScreen extends Activity {
             }
         }, SPLASH_TIME_OUT);
     }
-
-
 
 
 }

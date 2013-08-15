@@ -3,14 +3,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                > <!--Colocar um fundo, drawable desenha-->
+        > <!--Colocar um fundo, drawable desenha-->
     <ImageView
             android:id="@+id/imgLogo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:src="@drawable/logo" /><!--Colocar um imagem para a tela-->
-
+            android:src="@drawable/logo"/>
+    <!--Colocar um imagem para a tela-->
 
 
 </RelativeLayout>
