@@ -24,7 +24,7 @@ public class SplashScreen extends Activity {
 
             @Override
             public void run() {
-                // Este método será executado quando o cronômetro é longo
+                // Este método será executado sabe quando o cronômetro é longo
                 // Inicia sua atividade principal aplicativo
                 Intent i = new Intent(SplashScreen.this, LoginActivity.class);
                 startActivity(i);
