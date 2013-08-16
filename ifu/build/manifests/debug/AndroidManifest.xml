@@ -13,9 +13,16 @@
         </activity>
         <activity android:label="@string/app_name" android:name="com.ifu.MainActivity">
         </activity>
-        <activity android:label="Criar nova conta" android:name="com.ifu.RegisterActivity"/>
-        <activity android:label="Login" android:name="com.ifu.LoginActivity"/>
+        <!--  Login Activity -->
+        <activity android:label="Criar uma nova conta" android:name="com.ifu.LoginActivity"/>
 
+        <!--  Register Activity -->
+        <activity android:label="Registrar uma nova conta" android:name="com.ifu.RegisterActivity"/>
     </application>
+
+    <!-- Allow to connect with internet -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
 
 </manifest>
