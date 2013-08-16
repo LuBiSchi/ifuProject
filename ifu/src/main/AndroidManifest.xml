@@ -34,7 +34,7 @@
                 android:label="Criar nova conta"></activity>
         <activity
                 android:name=".LoginActivity"
-                android:label="Login"></activity>
+                android:label="Login IFU"></activity>
 
     </application>
 
