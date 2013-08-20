@@ -36,7 +36,7 @@ public class LoginActivity extends Activity {
         setContentView(R.layout.login);
 
         // Importing all assets like buttons, text fields
-        inputEmail = (EditText) findViewById(R.id.  .orr09;-75e
+        inputEmail = (EditText) findViewById(R.id.loginEmail);
         inputPassword = (EditText) findViewById(R.id.loginPassword);
         btnLogin = (Button) findViewById(R.id.btnLogin);
         btnLinkToRegister = (Button) findViewById(R.id.btnLinkToRegisterScreen);
@@ -77,7 +77,7 @@ public class LoginActivity extends Activity {
                             finish();
                         }else{
                             // Error in login
-                            loginErrorMsg.setText("Incorrect username/password");
+                            loginErrorMsg.setText("Usuário/Senha Incorretos!");
                         }
                     }
                 } catch (JSONException e) {
