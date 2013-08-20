@@ -5,8 +5,8 @@
           android:versionName="1.0">
 
     <uses-sdk
-            android:minSdkVersion="7"
-            android:targetSdkVersion="16"/>
+            android:minSdkVersion="8"
+            android:targetSdkVersion="17"/>
 
     <application
             android:allowBackup="true"
@@ -25,18 +25,25 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
         <activity
-                android:name="com.ifu.MainActivity"
-                android:label="@string/app_name">
+                android:label="@string/app_name"
+                android:name=".DashboardActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+
         <!--  Login Activity -->
         <activity
-                android:label="Criar uma nova conta"
+                android:label="Login"
                 android:name=".LoginActivity"></activity>
 
         <!--  Register Activity -->
         <activity
-                android:label="Registrar uma nova conta"
+                android:label="Criar nova conta"
                 android:name=".RegisterActivity"></activity>
     </application>
 

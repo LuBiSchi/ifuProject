@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ifu/build/source/buildConfig/buildConfig.iml" filepath="$PROJECT_DIR$/ifu/build/source/buildConfig/buildConfig.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ifu/build/manifests/debug/debug.iml" filepath="$PROJECT_DIR$/ifu/build/manifests/debug/debug.iml" />
       <module fileurl="file://$PROJECT_DIR$/ifu/ifu.iml" filepath="$PROJECT_DIR$/ifu/ifu.iml" />
       <module fileurl="file://$PROJECT_DIR$/ifuProject.iml" filepath="$PROJECT_DIR$/ifuProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/ifu/src/main/main.iml" filepath="$PROJECT_DIR$/ifu/src/main/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ifu/build/source/r/r.iml" filepath="$PROJECT_DIR$/ifu/build/source/r/r.iml" />
     </modules>
   </component>
 </project>
