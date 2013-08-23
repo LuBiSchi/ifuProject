@@ -1,5 +1,8 @@
-package library;
+package com.library;
 
+/**
+ * Created by Usuario on 22/08/13.
+ */
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -26,14 +29,14 @@ public class JSONParser {
     static JSONObject jObj = null;
     static String json = "";
 
-    // Construtor
+    // constructor
     public JSONParser() {
 
     }
 
     public JSONObject getJSONFromUrl(String url, List<NameValuePair> params) {
 
-        // Criando um pedido HTTP
+        // Making HTTP request
         try {
             // defaultHttpClient
             DefaultHttpClient httpClient = new DefaultHttpClient();
@@ -67,14 +70,14 @@ public class JSONParser {
             Log.e("Buffer Error", "Error converting result " + e.toString());
         }
 
-        //Tentando passar o JSON para um objeto
+        // try parse the string to a JSON object
         try {
             jObj = new JSONObject(json);
         } catch (JSONException e) {
             Log.e("JSON Parser", "Error parsing data " + e.toString());
         }
 
-        // Retorna uma string JSON
+        // return JSON String
         return jObj;
 
     }

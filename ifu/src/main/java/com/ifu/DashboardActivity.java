@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import library.UserFunctions;
-
 public class DashboardActivity extends Activity {
     UserFunctions userFunctions;
     Button btnLogout;

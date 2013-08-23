@@ -1,11 +1,15 @@
-package library;
-import java.util.HashMap;
+package com.library;
 
+/**
+ * Created by Usuario on 22/08/13.
+ */
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
+import java.util.HashMap;
 
 public class DatabaseHandler extends SQLiteOpenHelper {
 
@@ -14,7 +18,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;
 
     // Database Name
-    private static final String DATABASE_NAME = "ifu_api";
+    private static final String DATABASE_NAME = "android_api";
 
     // Login table name
     private static final String TABLE_LOGIN = "login";

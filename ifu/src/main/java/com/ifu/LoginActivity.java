@@ -1,11 +1,17 @@
 package com.ifu;
 
+/**
+ * Created by Usuario on 22/08/13.
+ */
+import java.util.HashMap;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -77,7 +83,7 @@ public class LoginActivity extends Activity {
                             finish();
                         }else{
                             // Error in login
-                            loginErrorMsg.setText("Usuário/Senha Incorretos!");
+                            loginErrorMsg.setText("Incorrect username/password");
                         }
                     }
                 } catch (JSONException e) {

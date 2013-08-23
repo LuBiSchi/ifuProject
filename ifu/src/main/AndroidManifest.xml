@@ -37,9 +37,6 @@
         </activity>
 
         <!--  Login Activity -->
-        <activity
-                android:label="Login"
-                android:name=".LoginActivity"></activity>
 
         <!--  Register Activity -->
         <activity

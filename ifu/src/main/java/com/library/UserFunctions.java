@@ -1,5 +1,8 @@
-package library;
+package com.library;
 
+/**
+ * Created by Usuario on 22/08/13.
+ */
 import java.util.ArrayList;
 import java.util.List;
 
