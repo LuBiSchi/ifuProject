@@ -10,6 +10,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.ifu.R;
+
 public class SplashScreen extends Activity {
     //Timer para o SplashScren//
     private static int SPLASH_TIME_OUT = 3000;
@@ -28,7 +30,7 @@ public class SplashScreen extends Activity {
             public void run() {
                 // Este método será executado sabe quando o cronômetro é longo
                 // Inicia sua atividade principal aplicativo
-                Intent i = new Intent(SplashScreen.this, LoginActivity.class);
+                Intent i = new Intent(SplashScreen.this, Login.class);
                 startActivity(i);
 
                 //Fecha aplicação *-*
